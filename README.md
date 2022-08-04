@@ -1,4 +1,4 @@
-# Página responsíva em HTML e CSS puro
+# <p align="center"> Página responsíva em HTML e CSS puro</p
 
 <p align="center">
   <img src= "/preview.gif" />
