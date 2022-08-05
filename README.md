@@ -34,6 +34,6 @@ Uma grande dificuldade que tive foi com a estilização dos formulários e label
 ## Próximos passos:
 Pretendo começar a adicionar mais funcionalidades com JavaScript e CSS, tais como:
 - [ ] Adicionar responsividade entre páginas usando JS
-- [ ] Adicionar funcionalidade Back-end com JS para formulários
+- [ ] Adicionar funcionalidade Back-end com JS e AJAX para formulários
 - [ ] Adicionar animações em CSS
 - [ ] Refatorar código para melhorar clareza e rever funcionalidades.
