@@ -5,7 +5,8 @@
 </p>
 
 Esse é um projeto que fiz em forma de desafio para conclusão de módulo de HTML e CSS do curso da Cod3r.
-Retirei a ideia e o desafio do vídeo **"Analisando o HTML e CSS dos estagiários"** do canal **DevMedia** que pode ser visto [aqui](https://www.youtube.com/watch?v=YPYwND5WGxw&t=61s).
+Retirei a ideia e o desafio do vídeo **"Analisando o HTML e CSS dos estagiários"** do canal **DevMedia** que pode ser visto [aqui](https://www.youtube.com/watch?v=YPYwND5WGxw&t=61s).<br><br>
+[Clique aqui para visitar a página deste projeto](https://luaxlz.github.io/turismo-responsivo/)<br>
 
 
 ## Proposta:
