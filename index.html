@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Petemoss&family=Raleway&display=swap" rel="stylesheet">
-    <title>Responsivo</title>
+    <title>Responsivo Turismos</title>
 </head>
 <body>
     <header class="header">
@@ -30,20 +30,21 @@
                     </nav>
                 </header>
                 <div class="form-title"><h2>Travel the word with us</h2></div>
-                <form action="" method="post" class="form-main">
+                <form action="" method="post" class="form-main" id="form">
                     <div class="form-group">
                         <label for="from">From</label><br>
-                        <input type="text" name="from" id="from" class="form-control" placeholder="Departing from">
+                        <input type="text" name="from" id="from" class="form-control" placeholder="Departing from" required>
                     </div>
                     <div class="form-group">
                         <label for="to">To</label><br>
-                        <input type="text" name="from" id="to" class="form-control" placeholder="Arriving in">
+                        <input type="text" name="from" id="to" class="form-control" placeholder="Arriving in" required>
                     </div>
 
                 </form>
-                <div class="search-buttom">
-                    <a href="#search-dates">Search and find dates</a>
+                <div class="search-buttom buttom">
+                    <a href="#search-dates" onclick="msgError()">Search and find dates</a>
                 </div>
+                <div id="booking-error">Sorry, no date available at the moment</div>
             </div>
     
         </section>
@@ -118,7 +119,7 @@
                         <label for="email">Email</label><br>
                         <input type="text" name="email" id="email" class="form-control-2" placeholder="Your Email adress">
                     </div>
-                <div class="buttom-subscribe"><a href="#Subscribe">Subscribe</a></div>
+                <div class="buttom-subscribe" onclick="subsOk()"><a href="#Subscribe">Subscribe</a></div>
             </div>
         </div>
 
@@ -139,7 +140,7 @@
                         <input type="text" name="name-message" id="name-message" class="form-control-3" placeholder="Name">
                         <input type="text" name="email-message" id="email-message" class="form-control-3" placeholder="Email">
                         <input type="text" name="message" id="message" class="form-control-3" placeholder="Message">
-                        <div class="buttom-send-message"><a href="#send-message">SEND MESSAGE</a></div>
+                        <div class="buttom-send-message buttom" onclick="msg()"><a href="#send-message">SEND MESSAGE</a></div>
                     </div>
             </div>
         </div>
@@ -154,9 +155,12 @@
             <div class="Twitter"><a href="https://twitter.com/luaxlz" target=”_blank” class="fa fa-twitter"></a></div>
             <div class="Linkedin"><a href="https://www.linkedin.com/in/jlangeli" target=”_blank” class="fa fa-linkedin"></a></div>
         </div>
-        <p>Powered by W3.CSS</p>
+        <p> <a href="https://www.linkedin.com/in/jlangeli" target=”_blank”> Code by: Lucas Angeli</a></p>
     </footer>
+    <div id="newsletter-ok">You have subscribed</div>
+    <div id="mensagem">Thank you for your message!</div>
     <script type="text/javascript" src="src/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </div>
 </body>
 </html>
